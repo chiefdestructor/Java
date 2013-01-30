@@ -8,7 +8,6 @@ public class Kreisberechnung4_JOptionPane {
 		String einheit, eingabe;
 		eingabe = JOptionPane.showInputDialog("Geben Sie den Kreisradius ein: ");
 		radius = Double.parseDouble(eingabe);
-		System.out.print("Geben Sie die Einheit ein: ");
 		eingabe = JOptionPane.showInputDialog("Geben Sie die Einheit ein: ");
 		einheit = eingabe;
 		umfang = 2.0 * 3.1415926 * radius;
